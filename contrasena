@@ -1,0 +1,7 @@
+import random
+contra=""
+num="/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+x=int(input("ingresa un numero"))
+for i in range(x):
+    contra+= random.choice(num)
+print(contra)
